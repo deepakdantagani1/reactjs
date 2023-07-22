@@ -81,11 +81,11 @@ class App extends React.Component {
 // without re-rendering the entire chat history.
 
 // Best Practices:
-// Use keys: When rendering lists of components, make sure to provide a unique key prop to each item. 
+// ==> Use keys: When rendering lists of components, make sure to provide a unique key prop to each item. 
 // This helps React identify the individual items during the diffing process.
-// Use PureComponent or memo: Use PureComponent or the memo higher-order component to prevent unnecessary re-renders 
+// ==> Use PureComponent or memo: Use PureComponent or the memo higher-order component to prevent unnecessary re-renders 
 // of components when their props or state haven't changed.
-// Avoid unnecessary re-renders: Optimize your components by using shouldComponentUpdate or React.memo to prevent 
+// ==> Avoid unnecessary re-renders: Optimize your components by using shouldComponentUpdate or React.memo to prevent 
 // re-rendering when it's not necessary.
 
 // Pros of Virtual DOM:
