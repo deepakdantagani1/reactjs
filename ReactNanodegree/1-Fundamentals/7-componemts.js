@@ -19,3 +19,11 @@ const ContactList = () => {
 // class ContactList extends Component {  
 //   // ...  
 // }  
+
+/**
+ * Composition in React:
+ * Composition in React involves combining smaller, reusable components to build larger and more complex components. This is achieved
+ * by nesting components within each other and passing data and functionality between them using props.
+ * 
+ * Favor Composition Over Inheritance
+ */
