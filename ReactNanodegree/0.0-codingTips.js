@@ -11,3 +11,14 @@
 /**
  * npx create-react-app APP_NAME ==> this crates app with react, react dom, react scripts
  */
+
+/**
+ * For the image, we can use the button role to indicate it's clickable.
+ * <img 
+        src={corgi} 
+        alt="Corgi" 
+        onClick={incrementLikes} 
+        role="button" 
+        style={{ cursor: 'pointer', margin: '20px 0' }} 
+      />
+ */
