@@ -22,3 +22,8 @@
         style={{ cursor: 'pointer', margin: '20px 0' }} 
       />
  */
+
+/**
+ * onChange event handler.
+ * onChange={({ target: { value } }) => setSearch(value)}
+ */
