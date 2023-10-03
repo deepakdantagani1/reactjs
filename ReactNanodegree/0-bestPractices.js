@@ -20,3 +20,5 @@
  * Only Call Hooks at the Top Level: Don’t call Hooks inside loops, conditions, or nested functions. Always use Hooks at the top level of your React function.
  * Only Call Hooks from React Functions: Don’t call Hooks from regular JavaScript functions. You can call Hooks from React function components or from custom Hooks.
  */
+
+// when it comes to re-rendering the page, we just have to think about updating state. 

@@ -27,3 +27,13 @@
  * onChange event handler.
  * onChange={({ target: { value } }) => setSearch(value)}
  */
+
+/**
+ *    <button disabled={inputIsEmpty()}>Add</button>
+ */
+
+/**
+ * handle form data
+ * ==> [formData, setFormData] = useState()
+ * ==> handleInputChange, handleFormSubmit
+ */
