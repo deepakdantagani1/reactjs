@@ -22,3 +22,29 @@
  */
 
 // when it comes to re-rendering the page, we just have to think about updating state. 
+
+// hash of the content and use that as a key
+
+
+/**
+ * https://react.dev/learn/thinking-in-react
+ * thinking in react
+ * 1) break the UI into a component hierarchy
+ * 2) build a static version in react
+ * 3) identify the minimal (but complete) representation of UI state
+ * 4) identify where your state should live
+ * 5) add inverse data flow
+ */
+
+/**
+ * How to NOT React: Common Anti-Patterns and Gotchas in React
+ * https://www.youtube.com/watch?v=ZmVBCpefQe8
+ * 
+ * 1) Don't use index as key
+ * 2) Don't mutate state directly
+ * 3) Don't use setState in constructor
+ * 4) setState() is async
+ * 5) Components Name should be in PascalCase
+ * 
+ * 
+ */
